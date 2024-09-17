@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+
+/* Definindo as cores principais */
+:root {
+    --roxo: #8A2BE2;
+    --verde: #32CD32;
+    --preto: #000000;
+    --branco: #FFFFFF;
+}
+
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--preto);
+    color: var(--branco);
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: var(--roxo);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo dos títulos */
+h1, h2 {
+    margin: 0;
+}
+
+h1 {
+    color: var(--verde);
+    font-size: 3em;
+    text-shadow: 2px 2px var(--preto);
+}
+
+h2 {
+    color: var(--branco);
+    font-size: 2em;
+    margin-top: 10px;
+}
+ 
+h3 {
+    text-align: center;
+}
+
+/* Estilo do formulário de login */
+.formulario-login {
+    background-color: var(--roxo);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.formulario-login input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px -10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.formulario-login button {
+    background-color: var(--verde);
+    color: var(--preto);
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.formulario-login a {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+/* Estilo do menu de navegação */
+nav {
+    background-color: var(--verde);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: var(--preto);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Estilo do formulário de contato */
+.formulario-contato {
+    background-color: var(--roxo);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.formulario-contato input, .formulario-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px -10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.formulario-contato button {
+    background-color: var(--verde);
+    color: var(--preto);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}

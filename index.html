@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matuê em Teresina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Imperdível!</h1>
+        <h2>Matuê em Teresina</h2>
+    </header>
+
+    <!-- Tela de Login -->
+    <main id="pagina-login" style="display: block;">
+        <div class="formulario-login">
+            <h3>Confirme sua presença!</h3>
+            <form id="formulario-login">
+                <input type="email" placeholder="E-mail" required="">
+                <input type="password" placeholder="Senha" required="">
+                <button type="submit">Login</button>
+            </form>
+            <a href="#" id="esqueceu-senha">Esqueceu a senha?</a>
+            <p>Novo por aqui? <a href="pagina-registro" id="criar-conta">Crie seu cadastro aqui!</a></p>
+        </div>
+    </main>
+
+    <!-- Tela de Cadastro -->
+    <main id="pagina-registro" style="display: none;">
+        <div class="formulario-login">
+            <h3>Crie sua conta</h3>
+            <form id="formulario-cadastro">
+                <input type="text" placeholder="Nome completo" required="">
+                <input type="email" placeholder="E-mail" required="">
+                <input type="password" placeholder="Senha" required="">
+                <input type="password" placeholder="Confirme a senha" required="">
+                <button type="submit">Confirmar cadastro</button>
+            </form>
+            <button id="retornar-login">Retorne para tela de login</button>
+        </div>
+    </main>
+
+    <!-- Tela do Evento -->
+    <main id="pagina-evento" style="display: none;">
+        <header>
+            <h2>Show Exclusivo</h2>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#" id="historia-artista">História do Artista</a></li>
+                <li><a href="#" id="local-evento">Local do Evento</a></li>
+                <li><a href="#" id="comprar-ingressos">Compre Aqui</a></li>
+                <li><a href="#" id="informacoes-contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div id="area-conteudo">
+            <!-- O conteúdo será carregado aqui -->
+
+
+        </div>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
